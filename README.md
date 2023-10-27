@@ -1,5 +1,4 @@
 # Peritajespsicologicos
-Realización de periciales psicológicas forenses
 
 # Términos de Uso
 
