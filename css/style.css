@@ -463,10 +463,6 @@ a:focus {
 .about_section .detail-box p {
   margin-top: 5px;
 }
-.imagen-equipo {
-  width: 100px;
-  margin-left: 145px; /* o el margen deseado */
-}
 
 
 .about_section .detail-box a {
