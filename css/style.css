@@ -458,6 +458,8 @@ a:focus {
   position: relative;
   margin-left: 0px;
   color: #636363;
+  display: flex; /* Activa el modelo de caja flexible */
+  justify-content: center; /* Centra horizontalmente el contenido */
 }
 
 .about_section .detail-box p {
