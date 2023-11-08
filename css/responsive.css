@@ -81,12 +81,15 @@
     width: 100%;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
   }
-
- .foto-sandra {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+   
+@media (max-width: 768px) {
+  .foto-sandra {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
   }
+}
+
 
 
   .service_section .service_container {
