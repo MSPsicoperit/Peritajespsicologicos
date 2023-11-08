@@ -22,19 +22,7 @@
   <meta name="author" content="" />
   <link rel="shortcut icon" href="images/loogo.jpg" type="image/x-icon">
 
-  <script>
-function prellenarCorreo() {
-    var nombre = document.getElementById('nombre').value;
-    var email = document.getElementById('email').value;
-    var telefono = document.getElementById('telefono').value;
-    var mensaje = document.getElementById('mensaje').value;
-
-    var cuerpo = "Nombre: " + nombre + "\nEmail: " + email + "\nNúmero de teléfono: " + telefono + "\nMensaje: " + mensaje;
-    
-    var form = document.getElementById('formulario');
-    form.action = "mailto:psicoperit@gmail.com?subject=Asunto del correo&body=" + encodeURIComponent(cuerpo);
-}
-</script>
+ 
 
   <title>MSPsicoperit</title>
    
@@ -582,30 +570,33 @@ function prellenarCorreo() {
           Contáctenos
         </h2>
       </div>
-   <div class="">
+   
+     <div class="">
         <div class="row">
           <div class="col-md-7 mx-auto">
-            <form action="mailto:psicoperit@gmail.com" method="post" enctype="text/plain">
-    <div class="contact_form-container">
-        <div>
-            <div>
-                <input type="text" id="nombre" placeholder="Nombre" />
-            </div>
-            <div>
-                <input type="email" id="email" placeholder="Email" />
-            </div>
-            <div>
-                <input type="text" id="telefono" placeholder="Número de teléfono" />
-            </div>
-            <div class="">
-                <input type="text" id="mensaje" placeholder="Mensaje" class="message_input" />
-            </div>
-            <div class="btn-box">
-                <button type="submit">Enviar</button>
-            </div>
-        </div>
-    </div>
-</form>
+            <form action="#">
+              <div class="contact_form-container">
+                <div>
+                  <div>
+                    <input type="text" placeholder="Nombre" />
+                  </div>
+                  <div>
+                    <input type="email" placeholder="Email" />
+                  </div>
+                  <div>
+                    <input type="text" placeholder="Número de teléfono" />
+                  </div>
+                  <div class="">
+                    <input type="text" placeholder="Mensaje" class="message_input" />
+                  </div>
+                  <div class="btn-box ">
+                    <button type="submit">
+                      Enviar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
