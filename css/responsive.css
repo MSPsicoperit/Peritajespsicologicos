@@ -82,6 +82,13 @@
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
   }
 
+ .foto-sandra {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+
   .service_section .service_container {
     flex-wrap: wrap;
   }
