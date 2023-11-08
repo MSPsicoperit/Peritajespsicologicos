@@ -574,29 +574,26 @@
      <div class="">
         <div class="row">
           <div class="col-md-7 mx-auto">
-            <form action="#">
-              <div class="contact_form-container">
-                <div>
-                  <div>
-                    <input type="text" placeholder="Nombre" />
-                  </div>
-                  <div>
-                    <input type="email" placeholder="Email" />
-                  </div>
-                  <div>
-                    <input type="text" placeholder="Número de teléfono" />
-                  </div>
-                  <div class="">
-                    <input type="text" placeholder="Mensaje" class="message_input" />
-                  </div>
-                  <div class="btn-box ">
-                    <button type="submit">
-                      Enviar
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </form>
+            <form action="https://formspree.io/f/meqbdnqe" method="POST">
+  <label>
+    Nombre:
+    <input type="text" name="nombre">
+  </label>
+  <label>
+    Email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Teléfono:
+    <input type="tel" name="telefono">
+  </label>
+  <label>
+    Mensaje:
+    <textarea name="message"></textarea>
+  </label>
+  <button type="submit">Enviar</button>
+</form>
+
           </div>
         </div>
       </div>
