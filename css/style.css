@@ -458,8 +458,6 @@ a:focus {
   position: relative;
   margin-left: 0px;
   color: #636363;
-  display: flex; /* Activa el modelo de caja flexible */
-  justify-content: center; /* Centra horizontalmente el contenido */
 }
 
 .about_section .detail-box p {
@@ -467,7 +465,7 @@ a:focus {
 }
 .imagen-equipo {
   width: 100px;
-   /* o el margen deseado */
+  margin-left: 145px; /* o el margen deseado */
 }
 
 
